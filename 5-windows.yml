@@ -1,0 +1,7 @@
+---
+- hosts: win
+  tasks:
+    - name: Copy a single file
+      ansible.windows.win_copy:
+        src: text.txt
+        dest: C:\Temp\renamed-test.txt
