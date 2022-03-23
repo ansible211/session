@@ -1,0 +1,19 @@
+---
+- hosts: localhost
+  become: true
+  tasks:
+    - name: install packages
+      yum:
+        state: present
+        name:
+         - tcsh
+         - htop
+- hosts: linux
+  become: true
+  tasks:
+    - name: install packages
+      yum:
+        state: present
+        name:
+         - tcsh
+         - htop

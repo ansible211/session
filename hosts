@@ -1,2 +1,14 @@
-testserver 172.31.16.13
+[linux]
+testserver ansible_host=172.31.16.13
+172.31.31.112
 
+[win]
+3.142.237.41
+[win:vars]
+ansible_user=ansible
+ansible_password=tcs@1234
+ansible_connection=winrm
+ansible_winrm_scheme=https
+ansible_port=5986
+ansible_winrm_server_cert_validation=ignore
+ansible_winrm_kerberos_delegation=true
