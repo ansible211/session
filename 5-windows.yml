@@ -3,5 +3,5 @@
   tasks:
     - name: Copy a single file
       ansible.windows.win_copy:
-        src: text.txt
+        src: test.txt
         dest: C:\Temp\renamed-test.txt
