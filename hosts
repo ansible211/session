@@ -1,9 +1,9 @@
 [linux]
 testserver ansible_host=172.31.16.13
-172.31.31.112
+linux2 ansible_host=172.31.31.112
 
 [win]
-3.142.237.41
+172.31.20.1
 [win:vars]
 ansible_user=ansible
 ansible_password=tcs@1234

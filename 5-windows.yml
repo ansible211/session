@@ -4,4 +4,4 @@
     - name: Copy a single file
       ansible.windows.win_copy:
         src: test.txt
-        dest: C:\Temp\renamed-test.txt
+        dest: C:\Temp\new-file-test.txt
